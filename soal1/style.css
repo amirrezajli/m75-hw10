@@ -1,0 +1,27 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image__simple {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.h-custom {
+    height: calc(100% - 72px);
+}
+
+@media (max-width: 990px) {
+    .h-custom {
+        height: auto;
+    }
+}
